@@ -27,6 +27,20 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+## Preparing the dataset
+
+Use this Colab page (needs a columbia.edu account)
+
+https://colab.research.google.com/drive/1A9KGLSVo9s5nYn1UWbs0Re87HsPSuIuZ?usp=sharing
+
+Adjust the location of the textgrids in the second cell.
+
+FILEPATH = '/content/drive/My Drive/SWBD_aeneas/fixed_textgrids_42_tags/'
+
+
+Once you run all the cells, it should output a `labels.pkl` and `dataset.pkl`. Move these under `daseg/exp-swda-longformer-512` directory.
+
+
 ## Running the experiments
 
 Experiments can be run using dasg CLI:
