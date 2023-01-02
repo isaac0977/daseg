@@ -11,7 +11,7 @@ In my experience, I found using venv was easier than anaconda
 Installing requirements and downloading datasets:
 
 ```bash
-git clone https://github.com/pzelasko/daseg
+git clone https://github.com/isaac0977/daseg.git
 cd daseg
 
 
